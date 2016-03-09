@@ -791,8 +791,7 @@
 	#header
 	{
 		position: relative;
-		background: url(../images/header.jpg) no-repeat bottom center;
-		background-attachment: fixed;
+		background: url(../images/header.jpg);
 		background-size: cover;
 		text-align: center;
 	}
@@ -808,7 +807,9 @@
 			background: rgba(64,64,64,0.125);
 		}
 
-/*********************************************************************************/
+
+
+	/*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
 
@@ -820,27 +821,34 @@
 	
 		#logo h1
 		{
-			font-family: 'Arvo', serif;
-			font-size: 13px;
+			font-family: 'Roboto', serif;
+			font-size: 18px;
 		}
 	
 		#logo a
 		{
 			display: block;
 			text-decoration: none;
-			font-weight: 300;
+			font-weight: 100;
 			line-height: 1em;
 			font-size: 4em;
-			color: #9ccdef;
+			color: whitesmoke;
 			letter-spacing: 2px;
 			margin: 0 0 0.3em 0;
 		}
-		
+
 		#logo span
 		{
 			font-size: 16px;
 			color: #FFF;
 			letter-spacing: 1px;
+			background: #074C93;
+			padding: 4px;
+		}
+
+		#logo img
+		{
+			padding-bottom: 10px;
 		}
 
 /*********************************************************************************/
@@ -1041,7 +1049,7 @@
 	{
 		position: relative;
 		text-align: center;
-		background: url(../images/header.jpg) no-repeat center center;
+		background: url(../images/header_background.jpg) no-repeat center center;
 		background-attachment: fixed;
 		background-size: cover;
 	}
